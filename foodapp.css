@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    padding-top: 8px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section {
+    padding: 24px;
+}
+
+.site-header {
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.food-much-logo {
+    width: 80px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.nav-links li a {
+    padding: 8px 12px;
+    color: #323f4b;
+    font-size: 14px;
+}
+
+.nav-links {
+    list-style: none;
+    width: 100%;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+@media (min-width:768px) {
+    .nav-links {
+        width: auto;
+        margin-top: 0;
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.banner {
+
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-content {
+
+    text-align: center;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 12px 0 24px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.custom-button {
+    background-color: #d0b200;
+    color: #ffffff;
+    border: none;
+}
+
+.custom-outline-button {
+    border: 1px solid #d0b200;
+    background-color: transparent;
+    color: #d0b200;
+}
+
+.custom-button,
+.custom-outline-button {
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: "Roboto";
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.why-choose-us {
+    background-color: #f9fbfe;
+
+}
+
+.wcu-section {
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.wcu-section h1 {
+    font-size: 40px;
+
+}
+
+.features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    text-align: center;
+    border: 1px solid #e5eaf4;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 300px;
+}
+
+.feature-card>img {
+    margin: auto;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.menu-card {
+    box-shadow: 2px 2px 4px #00000026;
+    width: 100%;
+    max-width: 260px;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.menu-card h1 {
+    font-size: 24px;
+    color: #343f4b;
+    margin-top: 10px;
+}
+
+.menu-card a {
+    color: #d0b200;
+    font-weight: 500;
+}
+
+.menu-header h1 {
+    font-size: 20px;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-block {
+    width: 270px;
+
+}
+
+/* .two-coloumn.reverse {
+    flex-direction: row-reverse;
+} */
+
+@media (min-width:786px) {
+    .two-column {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.two-coloumn.reverse {
+    flex-direction: row-reverse;
+}
+
+.payment-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.payment-icons img {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.delivery-payment {
+    padding: 24px;
+}
+
+.image-block {
+    width: 100%;
+}
+
+.content-block {
+    text-align: center;
+}
+
+.custom-button {
+    background: #d0b200;
+    color: #ffffff;
+    border: none;
+}
+
+.custom-button {
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+
+.follow-us {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.social-icons span {
+    width: 80px;
+    height: 80px;
+    background: #faf7e8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    height: 35px;
+    width: 35px;
+}
+
+.site-footer {
+    background-color: #0d2436;
+    padding: 25px 0;
+}
+
+.food-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content p,
+.footer-content address {
+    color: #959ead;
+    font-size: 24px;
+}
+
+.footer-content address {
+    font-style: normal;
+}
+
+.food-much-logo {
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+}
